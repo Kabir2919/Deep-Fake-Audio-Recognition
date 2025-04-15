@@ -10,15 +10,31 @@ Our approach combines powerful **deep learning models** with smart **feature ext
 ---
 
 ### 🧠 Models Used
-We leverage advanced neural networks, including:
--- BiLSTM
--- SE-Enhanced 1D-CNN for Time Series Classification
--- Custom CNN
--- Random Forest Classifier
--- WIREnet
--- ResNet FC	
--- ResCNN-Attention-BiGRU	
--- SVM	
+To tackle deepfake audio detection, we experimented with a diverse set of powerful models—each bringing unique strengths to the table:
+
+🔁 **BiLSTM (Bidirectional LSTM)**
+Captures temporal patterns in audio sequences from both past and future directions for better context understanding.
+
+🔊 **SE-Enhanced 1D-CNN for Time Series Classification**
+Combines Squeeze-and-Excitation blocks with 1D CNNs to boost important audio features while suppressing noise.
+
+🧱 **Custom CNN Architecture**
+Tailor-made convolutional layers designed to extract deep, hierarchical features from spectrograms and MFCCs.
+
+🌲 **Random Forest Classifier**
+A robust ensemble-based method used for baseline comparisons and feature importance analysis.
+
+🌐 **WIREnet**
+A deep learning model tailored for audio spoofing detection, known for its effectiveness on ASVspoof datasets.
+
+🌀 **ResNet FC (Fully Convolutional Residual Network)**
+Utilizes residual connections for deep feature learning, reducing vanishing gradient issues.
+
+🎯 **ResCNN-Attention-BiGRU**
+A hybrid model that merges CNNs with Attention-powered Bidirectional GRUs for both spatial and sequential feature focus.
+
+🧮 **SVM (Support Vector Machine)**
+Classic yet effective, SVMs are used here for linear and non-linear classification on extracted feature vectors.
 
 ---
 
