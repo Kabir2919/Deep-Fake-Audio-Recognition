@@ -11,9 +11,14 @@ Our approach combines powerful **deep learning models** with smart **feature ext
 
 ### 🧠 Models Used
 We leverage advanced neural networks, including:
-- **LSTM (Long Short-Term Memory)**: Captures temporal patterns in audio.
-- **CNN (Convolutional Neural Networks)**: Identifies frequency-based features in spectrograms.
-- **GANs (Generative Adversarial Networks)**: Helps understand and simulate fake audio.
+-- BiLSTM
+-- SE-Enhanced 1D-CNN for Time Series Classification
+-- Custom CNN
+-- Random Forest Classifier
+-- WIREnet
+-- ResNet FC	
+-- ResCNN-Attention-BiGRU	
+-- SVM	
 
 ---
 
